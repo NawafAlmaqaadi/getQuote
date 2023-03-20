@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: linear-gradient(#E9F2F5, #CEE0E7);
+  font-family: 'Roboto';
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+  
+  height: 300px;
+  width: 300px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.10);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.10);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.10);
+  border-radius: 5px;
+}
+
+.picProduct {
+  background-image: url('https://images.unsplash.com/photo-1495105787522-5334e3ffa0ef?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d5d41d95b7317fed7a8a25d249c25732&auto=format&fit=crop&w=1050&q=80');
+  width: 300px;
+  height: 200px;
+  background-size: 300px;
+  border-radius: 5px 5px 0 0;
+}
+
+.subtitle {
+  margin: 0;
+  position: absolute;
+  line-height: 1;
+  text-transform: uppercase;
+  background-color: #2b436d;
+  margin-top: 164px;
+  margin-left: 16px;
+  color: #fff;
+  padding: 5px;
+  font-weight: bold;
+  font-size: .6em;
+}
+
+.desc {
+  padding-left: 20px;
+}
+
+.cat {
+  color: grey;
+  text-transform: uppercase;
+  font-size: .9em;
+  margin: 0;
+  margin-top: 20px;
+}
+
+h1 {
+  margin: 0;
+  margin-top: 7px;
+}
+
+.content {
+  font-size: .8em;
+  margin: 0;
+  margin-right: 20px;
+  line-height: 20px;
+  margin-top: 8px;
+}
+
+.add {
+  margin-left: -20px;
+  margin-top: 55px;
+  padding-left: 20px;
+  text-transform: uppercase;
+  color: gray;
+  border-top: 1px solid #e6e6e6;
+  padding-top: 13px;
+  font-weight: bold;
+  font-size: .9em;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
